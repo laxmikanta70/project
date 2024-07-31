@@ -1,0 +1,97 @@
+/* Importing boxicons for icons */
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #8e44ad, #2980b9);
+    background:
+    url('https://img.freepik.com/premium-photo/background-beautiful-wallpaper-hd-best-quality-hyper-realistic-colorful-image_1078161-1701303.jpg?w=900')no-repeat center/cover;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.wrapper h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.input-box .bx {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.remember-forget {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.remember-forget a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper button {
+    width: 100%;
+    padding: 10px;
+    background: #6200ea;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.wrapper button:hover {
+    background: #3700b3;
+}
+
+.wrapper p {
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.wrapper p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
